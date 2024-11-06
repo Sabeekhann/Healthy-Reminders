@@ -28,6 +28,7 @@ body {
     animation: fadeInScale 1.5s ease-out;
 }
 
+/* Title Styling */
 .title {
     font-size: 2.5em;
     font-weight: bold;
@@ -133,4 +134,28 @@ body {
 @keyframes fadeInText {
     0% { opacity: 0; transform: translateY(20px); }
     100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive Styles */
+@media (max-width: 430px) {
+    .container {
+        padding: 20px;
+    }
+
+    .title {
+        font-size: 1.8em;
+    }
+
+    .quote-box h2 {
+        font-size: 1.2em;
+    }
+
+    .quote-box p {
+        font-size: 1em;
+    }
+
+    .refresh-button {
+        padding: 10px 25px;
+        font-size: 0.9em;
+    }
 }
